@@ -1,0 +1,68 @@
+.main_container{
+    background-color: rgba(255, 0, 0, 0.541);
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+header{
+    margin-left: 10%;
+}
+.headerClass{
+    display: flex;
+    width: 200px;
+    height: 300px;
+}
+#name{
+    padding-top: 50%; 
+    margin-left: 45%; 
+    font-size: 250%;
+    color: teal;
+    text-align: center
+}
+#infoBar{
+    margin-left: 50%; 
+    padding-top: 20%
+}
+
+body{
+    background-color: black; 
+    color: whitesmoke;
+
+}
+
+img{
+    border: 2px solid blue;
+    margin: 10%;
+}
+
+.mainBody{
+    margin-right: 30%;
+    
+
+}
+
+/* .education{
+    
+} */
+
+.skills{
+    background-color: blue;
+    width: 200px;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 460px;
+    text-align: left;
+    border: 1px solid yellow;
+    /* ----------------------------------------- */
+    /* margin:0;
+    width:250px;
+    float: right !important;
+    top: 0;
+    position:relative;
+    padding: 0;
+    text-align: left; */
+}
+
+    
