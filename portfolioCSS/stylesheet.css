@@ -33,6 +33,10 @@ header{
     width: 900px;
 }
 
+#link{
+    color: rgb(74, 145, 238);
+}
+
 body{
     background-color: black; 
     color: whitesmoke;
