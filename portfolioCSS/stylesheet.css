@@ -1,27 +1,36 @@
 .main_container{
-    background-color: rgba(255, 0, 0, 0.541);
+    background-color:rgb(37, 37, 37);
     width: 80%;
-    height: auto;
+    height: 1200px;
     margin: auto;
 }
+
 header{
     margin-left: 10%;
 }
+
 .headerClass{
     display: flex;
     width: 200px;
     height: 300px;
 }
+
 #name{
-    padding-top: 50%; 
-    margin-left: 45%; 
-    font-size: 250%;
-    color: teal;
-    text-align: center
+    padding-top: 10%; 
+    margin-left: 75%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
 }
+
+#title{
+    margin-left: 75%;
+}
+
 #infoBar{
-    margin-left: 50%; 
-    padding-top: 20%
+    margin-left: 170%; 
+    padding-top: 20%;
+    font-size: 20px;
+    width: 900px;
 }
 
 body{
@@ -31,38 +40,126 @@ body{
 }
 
 img{
-    border: 2px solid blue;
+    border: 2px solid black;
     margin: 10%;
 }
 
 .mainBody{
-    margin-right: 30%;
+    margin-right: 35%;
+    margin-left: 9%;
     
-
 }
 
-/* .education{
-    
-} */
+#bio{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.employment{
+    margin-left:5%;
+}
+
+.education{
+    margin-left:5%;
+}
+
+#backdrop{
+    background-color: rgb(83, 82, 82);
+}
 
 .skills{
-    background-color: blue;
-    width: 200px;
-    margin-right: 100px;
+    background-color: rgb(37, 37, 37);
+    width: 230px;
+    margin-right: 350px;
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 460px;
+    margin-top: 420px;
     text-align: left;
-    border: 1px solid yellow;
-    /* ----------------------------------------- */
-    /* margin:0;
-    width:250px;
-    float: right !important;
-    top: 0;
-    position:relative;
-    padding: 0;
-    text-align: left; */
+    border: 1px solid rgb(37, 37, 37);
 }
 
+.lightGrey{
+    width: 100%;
+    background-color: grey;
+
+}
+
+.greenBar{
+    width: 75%;
+    background-color: rgb(5, 166, 187);
+    font-weight: bolder;
+}
+
+.yellowBar{
+    width: 60%;
+    background-color: rgb(211, 179, 3);
+    font-weight: bolder;
+}
+
+.redBar{
+    width: 55%;
+    background-color: rgb(211, 3, 3);
+    font-weight: bolder;
+}
+
+.blueBar{
+    width: 80%;
+    background-color: rgb(44, 170, 86);
+    font-weight: bolder;
+}
+
+.box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    clear: both;
+  }
+  
+  .red {
+    border: rgb(255, 148, 9) solid 1px;
+    margin-right: 10px;
+    background-color: rgb(255, 148, 9);
+    height: 15px;
+    width: 15px;
+  }
+  
+  .green {
+    border:rgb(65, 243, 124) solid 1px;
+    margin-right: 10px;
+    background-color: rgb(78, 238, 131);
+    height: 15px;
+    width: 15px;
+  }
+  
+  .blue {
+    border:rgb(0, 110, 253) solid 1px;
+    margin-right: 10px;
+    background-color: rgb(0, 110, 253);
+    height: 15px;
+    width: 15px;
     
+  }
+
+.lang{
+    color: white;
+    display: inline-block;
+    margin-top: 0px;  
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 225, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot1 {
+    height: 15px;
+    width: 15px;
+    background-color:  rgb(235, 12, 60);
+    border-radius: 50%;
+    display: inline-block;
+  }
